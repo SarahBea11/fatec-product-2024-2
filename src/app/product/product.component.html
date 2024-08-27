@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="display-5">
+        Cadastro de Produtos
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+        <tbody>
+            <tr *ngFor="let product of products">
+                <th scope="col">{{product.id}}</th>
+                <th scope="col">{{product.name}}</th>
+                <th scope="col">{{product.price}}</th>
+                <th scope="col">{{product.category}}</th>
+            </tr>
+
+
+        </tbody>
+
+        <table>
+            <div>
