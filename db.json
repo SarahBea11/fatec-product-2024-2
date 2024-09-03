@@ -1,0 +1,7 @@
+{
+  "products": [
+    { "id": 1, "name": "Computador", "price": 4000, "category": "Eletrônicos" },
+    { "id": 2, "name": "Celular", "price": 3000, "category": "Eletrônicos" },
+    { "id": 3, "name": "Fone", "price": 250.0, "category": "Eletrônicos" }
+  ]
+}
